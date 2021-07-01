@@ -1,0 +1,24 @@
+#gameboard {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    border: 1vh solid;
+}
+
+.square {
+    margin: 0;
+    padding: 0;
+    height: 8vh;
+    width: 10vw;
+    
+}
+
+#play {
+    color: red;
+    background-color: black;
+    width: 100px;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: 400px;
+    border: .6vh solid hotpink
+}
